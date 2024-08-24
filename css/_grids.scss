@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    gap: 2rem;
+
+    @media (max-width: 960px) {
+        display: block;
+    }
+
+    .col {
+        //margin-bottom: 2rem;
+    }
+
+    &.half-half {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &.three-thirds {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

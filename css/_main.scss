@@ -1,0 +1,146 @@
+// Headlines
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $blue;
+    font-weight: bold;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    color: $black;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+// Text Styles
+p {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.extra-bold {
+    font-weight: 800;
+}
+
+// Header
+header {
+    margin-bottom: $margin-bottom-l;
+}
+
+.navigation-wrapper {
+    text-align: center;
+    
+    .logo {
+        position: relative;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+// Navigation
+nav {
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 1rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                background-color: $blue;
+                color: #fff;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}
+
+// Footer
+footer {
+    height: 200px;
+    background-color: $darkblue;
+    padding: 2rem;
+    color: #fff;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+// Styles
+.product-box {
+    position: relative;
+
+    img {
+
+    }
+
+    .caption {
+        //position: absolute;
+        display: inline-block;
+        bottom: 0;
+
+        p {
+            padding: 0.5rem 1rem;
+            background-color: $black;
+            color: #fff;
+        }
+    }
+}
+
+.social {
+    margin-top: 1.5rem;
+    text-align: center;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        background-color: $blue;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 0.5rem 1rem;
+        border-radius: 30px;
+
+        p {
+            font-size: 1rem;
+            font-weight: 100;
+            margin-bottom: 0;
+        }
+    }
+
+    img {
+        width: 30px;
+    }
+}
+
+.catalogue {
+    margin-bottom: 6rem;
+}
+
+// Margins
+.margin-bottom-s {
+    margin-bottom: $margin-bottom-s;
+}
+
+.margin-bottom-l {
+    margin-bottom: $margin-bottom-l;
+}

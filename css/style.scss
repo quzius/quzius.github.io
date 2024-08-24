@@ -1,0 +1,30 @@
+@import "variables";
+@import "main";
+@import "grids";
+@import "fonts";
+
+* {
+    box-sizing: border-box;
+    clear: both;
+    //display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 6rem auto 0rem auto;
+    padding: 0 4rem;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+
+    @media (max-width: 960px) {
+        padding: 0 1rem;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
