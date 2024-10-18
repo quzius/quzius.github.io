@@ -8,6 +8,15 @@
 
     .col {
         //margin-bottom: 2rem;
+
+        &.border {
+            border: 2px solid $darkblue;
+            padding: 1rem;
+
+            @media (max-width: 960px) {
+                margin-bottom: 1rem;
+            }
+        }
     }
 
     &.half-half {
