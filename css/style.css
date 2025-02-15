@@ -100,7 +100,7 @@ footer a {
 
 .social {
   margin-top: 1.5rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 .social a {
   display: inline-flex;
